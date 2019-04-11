@@ -13,3 +13,5 @@ C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug
 C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.dll
 C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.xml
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\JetBrains.Annotations.dll
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\JetBrains.Annotations.xml

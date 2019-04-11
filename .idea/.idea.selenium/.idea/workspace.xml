@@ -9,12 +9,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium/Post.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <marker date="1554930435165" expanded="false" signature="6:235" ph="..." />
                 <marker date="1554930435165" expanded="true" signature="256:430" ph="{...}" />
@@ -24,42 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selenium/Manager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
-              <folding>
-                <marker date="1554965170526" expanded="true" signature="6:293" ph="..." />
-                <marker date="1554965170526" expanded="true" signature="313:4953" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="333:4951" ph="{...}" />
-                <marker date="1554965170526" expanded="false" signature="573:831" ph="{...}" />
-                <marker date="1554965170526" expanded="false" signature="864:1416" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="988:1360" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="1449:2354" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="1539:2298" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="1826:1943" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="2049:2229" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="2388:3275" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="2479:3217" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="2764:3203" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="2972:3127" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="3788:4009" ph="{...}" />
-                <marker date="1554965170526" expanded="false" signature="4113:4477" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="4207:4467" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="4270:4453" ph="{...}" />
-                <marker date="1554965170526" expanded="false" signature="4509:4945" ph="{...}" />
-                <marker date="1554965170526" expanded="true" signature="4691:4935" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D852EC-3AC3-4D89-9BB0-79CFB1FCBE45/82/bcddc616/String.cs">
+        <entry file="file://$PROJECT_DIR$/selenium/images.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -67,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium/texts.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="300">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -77,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/selenium/Link.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding>
                 <marker date="1554936488490" expanded="false" signature="6:151" ph="..." />
                 <marker date="1554936488490" expanded="true" signature="171:406" ph="{...}" />
@@ -104,17 +73,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="411">
+              <caret line="29" column="33" selection-start-line="27" selection-start-column="11" selection-end-line="29" selection-end-column="33" />
               <folding>
-                <marker date="1554962175110" expanded="true" signature="6:297" ph="..." />
-                <marker date="1554962175110" expanded="true" signature="317:1061" ph="{...}" />
-                <marker date="1554962175110" expanded="true" signature="344:824" ph="{...}" />
-                <marker date="1554962175110" expanded="true" signature="397:818" ph="{...}" />
-                <marker date="1554962175110" expanded="true" signature="623:692" ph="/* manager.FindTexts(); ... */" />
-                <marker date="1554962175110" expanded="true" signature="856:1059" ph="{...}" />
-                <marker date="1554962175110" expanded="true" signature="943:1053" ph="{...}" />
-                <marker date="1554962175110" expanded="true" signature="991:1043" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="6:297" ph="..." />
+                <marker date="1555014508709" expanded="true" signature="317:1071" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="344:834" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="397:828" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="866:1069" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="953:1063" ph="{...}" />
+                <marker date="1555014508709" expanded="true" signature="1001:1053" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -122,7 +90,43 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selenium/links.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47">
+              <caret column="1021" selection-end-column="1021" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/selenium/Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-99">
+              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <marker date="1555015163545" expanded="true" signature="6:346" ph="..." />
+                <marker date="1555015163545" expanded="true" signature="366:5577" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="386:5575" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="627:943" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="976:1867" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="1066:1811" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="1364:1797" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="1900:2893" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="1990:2836" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="2362:2479" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="2586:2766" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="2935:3846" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="3026:3787" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="3333:3773" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="3541:3696" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="4419:4640" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="4736:5100" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="4830:5090" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="4893:5076" ph="{...}" />
+                <marker date="1555015163545" expanded="false" signature="5133:5569" ph="{...}" />
+                <marker date="1555015163545" expanded="true" signature="5315:5559" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -132,16 +136,25 @@
     <setting file="file://$PROJECT_DIR$/selenium/Post.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/selenium/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/5b/8dbbd4c9/DriverServiceCommandExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/16/eed69059/ISearchContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/50/72a8f32a/HttpCommandExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/988FA076-10C9-4365-AE6D-295A6AA379FE/4a/c825a00a/HttpWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/988FA076-10C9-4365-AE6D-295A6AA379FE/7a/e8681a53/ContextAwareResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/99/6251cf7b/INavigation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/90/547f189b/ChromeDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/30/a075c453/IWebElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/selenium/Link.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/selenium/Text.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/46/02ae702b/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D852EC-3AC3-4D89-9BB0-79CFB1FCBE45/82/bcddc616/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/74/c6dd32d6/RemoteNavigator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5F8D912-CD82-4E63-93D1-35A9356AD96C/74/8809ab81/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,17 +163,17 @@
         <option value="$PROJECT_DIR$/selenium/Post.cs" />
         <option value="$PROJECT_DIR$/selenium/Link.cs" />
         <option value="$PROJECT_DIR$/selenium/links.json" />
-        <option value="$PROJECT_DIR$/selenium/texts.json" />
         <option value="$PROJECT_DIR$/selenium/Program.cs" />
+        <option value="$PROJECT_DIR$/selenium/images.json" />
+        <option value="$PROJECT_DIR$/selenium/texts.json" />
         <option value="$PROJECT_DIR$/selenium/Manager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="210" />
-    <option name="y" value="-33" />
-    <option name="width" value="1750" />
-    <option name="height" value="1103" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -168,6 +181,7 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -175,17 +189,11 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="selenium" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="selenium" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="selenium" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,12 +245,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554921327326</updated>
-      <workItem from="1554921328649" duration="19692000" />
+      <workItem from="1554921328649" duration="26433000" />
+      <workItem from="1555008263960" duration="6647000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19692000" />
+    <option name="totallyTimeSpent" value="33080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,40 +266,70 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15369128" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.32960895" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25977653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12147651" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Performance Profiler" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3282123" />
+      <window_info anchor="bottom" id="NuGet" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.2444134" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32960895" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.15369128" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Performance Profiler" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3282123" />
+      <window_info anchor="bottom" id="NuGet" order="8" weight="0.32960895" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.2444134" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.32960895" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -299,8 +338,65 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/selenium/Manager.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/selenium/Manager.cs" initialLine="39">
+            <startOffsets>
+              <option value="1037" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1066" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="textField.FindElement(By.TagName(&quot;span&quot;)).Text" language="C#" custom="RiderImportsList:" />
+        <watch expression="fullText" language="C#" custom="RiderImportsList:" />
+        <watch expression="textField.FindElement(By.TagName(&quot;span&quot;)).Text" language="C#" custom="RiderImportsList:" />
+        <watch expression="textField.FindElements(By.TagName(&quot;a&quot;)).ToArray()[6]" language="C#" custom="RiderImportsList:" />
+        <watch expression="textField.FindElement(By.XPath(&quot;.//span&quot;)).Text" language="C#" custom="RiderImportsList:" />
+        <watch expression="textField.FindElement(By.XPath(&quot;.//span&quot;))" language="C#" custom="RiderImportsList:" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>textField.FindElement(By.XPath(&quot;.//span&quot;))</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>textField.FindElement(By.XPath(&quot;.//span&quot;)).Text</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fullText</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>textField.FindElements(By.TagName(&quot;a&quot;)).ToArray()[6]</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>textField.FindElement(By.TagName(&quot;span&quot;)).Text</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/99/6251cf7b/INavigation.cs">
@@ -321,13 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/46/02ae702b/RemoteWebDriver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -359,10 +448,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D852EC-3AC3-4D89-9BB0-79CFB1FCBE45/82/bcddc616/String.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/16/eed69059/ISearchContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selenium/Post.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
             <marker date="1554930435165" expanded="false" signature="6:235" ph="..." />
             <marker date="1554930435165" expanded="true" signature="256:430" ph="{...}" />
@@ -371,10 +474,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24D852EC-3AC3-4D89-9BB0-79CFB1FCBE45/82/bcddc616/String.cs">
+    <entry file="file://$PROJECT_DIR$/selenium/Link.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <marker date="1554936488490" expanded="false" signature="6:151" ph="..." />
+            <marker date="1554936488490" expanded="true" signature="171:406" ph="{...}" />
+            <marker date="1554936488490" expanded="true" signature="223:404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/30/a075c453/IWebElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium/links.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret column="1021" selection-end-column="1021" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19027CC8-5014-4409-9501-B87290061165/46/02ae702b/RemoteWebDriver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="1162" column="47" lean-forward="true" selection-start-line="1162" selection-start-column="47" selection-end-line="1162" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5F8D912-CD82-4E63-93D1-35A9356AD96C/74/8809ab81/Enumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="3413" column="6" selection-start-line="3413" selection-start-column="6" selection-end-line="3413" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium/images.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium/texts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="29" column="33" selection-start-line="27" selection-start-column="11" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <marker date="1555014508709" expanded="true" signature="6:297" ph="..." />
+            <marker date="1555014508709" expanded="true" signature="317:1071" ph="{...}" />
+            <marker date="1555014508709" expanded="true" signature="344:834" ph="{...}" />
+            <marker date="1555014508709" expanded="true" signature="397:828" ph="{...}" />
+            <marker date="1555014508709" expanded="true" signature="866:1069" ph="{...}" />
+            <marker date="1555014508709" expanded="true" signature="953:1063" ph="{...}" />
+            <marker date="1555014508709" expanded="true" signature="1001:1053" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,70 +556,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium/links.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium/Link.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding>
-            <marker date="1554936488490" expanded="false" signature="6:151" ph="..." />
-            <marker date="1554936488490" expanded="true" signature="171:406" ph="{...}" />
-            <marker date="1554936488490" expanded="true" signature="223:404" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium/texts.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1554962175110" expanded="true" signature="6:297" ph="..." />
-            <marker date="1554962175110" expanded="true" signature="317:1061" ph="{...}" />
-            <marker date="1554962175110" expanded="true" signature="344:824" ph="{...}" />
-            <marker date="1554962175110" expanded="true" signature="397:818" ph="{...}" />
-            <marker date="1554962175110" expanded="true" signature="623:692" ph="/* manager.FindTexts(); ... */" />
-            <marker date="1554962175110" expanded="true" signature="856:1059" ph="{...}" />
-            <marker date="1554962175110" expanded="true" signature="943:1053" ph="{...}" />
-            <marker date="1554962175110" expanded="true" signature="991:1043" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium/Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="91" column="47" lean-forward="true" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+        <state relative-caret-position="-99">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
-            <marker date="1554965170526" expanded="true" signature="6:293" ph="..." />
-            <marker date="1554965170526" expanded="true" signature="313:4953" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="333:4951" ph="{...}" />
-            <marker date="1554965170526" expanded="false" signature="573:831" ph="{...}" />
-            <marker date="1554965170526" expanded="false" signature="864:1416" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="988:1360" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="1449:2354" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="1539:2298" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="1826:1943" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="2049:2229" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="2388:3275" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="2479:3217" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="2764:3203" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="2972:3127" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="3788:4009" ph="{...}" />
-            <marker date="1554965170526" expanded="false" signature="4113:4477" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="4207:4467" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="4270:4453" ph="{...}" />
-            <marker date="1554965170526" expanded="false" signature="4509:4945" ph="{...}" />
-            <marker date="1554965170526" expanded="true" signature="4691:4935" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="6:346" ph="..." />
+            <marker date="1555015163545" expanded="true" signature="366:5577" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="386:5575" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="627:943" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="976:1867" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="1066:1811" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="1364:1797" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="1900:2893" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="1990:2836" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="2362:2479" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="2586:2766" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="2935:3846" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="3026:3787" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="3333:3773" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="3541:3696" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="4419:4640" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="4736:5100" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="4830:5090" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="4893:5076" ph="{...}" />
+            <marker date="1555015163545" expanded="false" signature="5133:5569" ph="{...}" />
+            <marker date="1555015163545" expanded="true" signature="5315:5559" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -20,12 +20,13 @@ namespace selenium
             var driver = new ChromeDriver();
             var manager = new Manager(driver,"http://vk.com");
 
-            Thread.Sleep(10000);
+            Thread.Sleep(5000);
             Console.WriteLine("Start");
 
-            manager.MakeWall();
-//            manager.FindTexts();
-//            manager.FindLinks();
+            
+            //manager.tempFunc();
+            manager.FindTexts();
+            manager.FindLinks();
             manager.FindImages();
             
             Console.WriteLine("End");

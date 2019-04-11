@@ -9,6 +9,8 @@ using OpenQA.Selenium.Support;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
+using System.Threading;
+using JetBrains.Annotations;
 
 namespace selenium
 {
@@ -17,7 +19,7 @@ namespace selenium
         List<Text> texts;
         List<Link> links;
         List<Link> images;
-        private List<IWebElement> Wall{ get; set; }
+        private List<IWebElement> Wall { get; set; }
         private IWebDriver Driver { get; set; }
 
         public Manager(IWebDriver driver, string url)
@@ -26,11 +28,14 @@ namespace selenium
             Driver.Navigate().GoToUrl(url);
             Driver.FindElement(By.Id("index_email")).SendKeys("79152373374");
             Driver.FindElement(By.Id("index_pass")).SendKeys("53aruheh" + Keys.Enter);
+
+            Thread.Sleep(5000);
+
+            MakeWall();
         }
 
         public void FindTexts()
         {
-            //TODO ReadMoreButton
             texts = new List<Text>();
             foreach (var feedRow in Wall)
             {
@@ -38,8 +43,14 @@ namespace selenium
                 var textField = GetTextFieldElement(feedRow);
                 if (textField.GetAttribute("class") != "wall_post_text")
                     texts.Add(new Text(id, null));
-                else if(textField.Text != string.Empty)
-                    texts.Add(new Text(id, textField.Text));
+                else if (textField.Text != string.Empty)
+                {
+                    var fullText =
+                        textField.FindElements(By.TagName("a")).Count(element => element.GetAttribute("class") == "wall_post_more") == 1 ? 
+                            textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).Text : 
+                            textField.Text;
+                    texts.Add(new Text(id, fullText));
+                }
             }
             WriteInFile(texts, "texts.json");
         }
@@ -51,23 +62,27 @@ namespace selenium
             {
                 var id = GetId(feedRow);
                 var textField = GetTextFieldElement(feedRow);
-                var aElements = textField.FindElements(By.TagName("a"));
+                var aElements = textField.FindElements(By.TagName("a"))
+                    .Where(element => element.GetAttribute("href") != null).ToList();
                 if (textField.GetAttribute("class") != "wall_post_text" || aElements.Count == 0)
                 {
                     links.Add(new Link(id, null));
                     continue;
                 }
+
                 var contentLinks = new List<string>();
                 foreach (var element in aElements)
                 {
                     if (element.GetAttribute("href") != (string.Empty))
                         contentLinks.Add(element.GetAttribute("href"));
                 }
+
                 links.Add(new Link(id, contentLinks));
             }
+
             WriteInFile(links, "links.json");
         }
-
+        
         public void FindImages()
         {
             images = new List<Link>();
@@ -75,7 +90,7 @@ namespace selenium
             {
                 var id = GetId(feedRow);
                 var imageField = GetImageFieldElement(feedRow);
-                if (imageField.GetAttribute("class") != "page_post_sized_thumbs  clear_fix")
+                if (imageField == null || imageField.GetAttribute("class") != "page_post_sized_thumbs  clear_fix")
                     images.Add(new Link(id, null));
                 else
                 {
@@ -86,17 +101,23 @@ namespace selenium
                         var imageUrl = GetImageUrl(element);
                         imageLinks.Add(imageUrl);
                     }
+
                     images.Add(new Link(id, imageLinks));
                 }
             }
+
             WriteInFile(images, "images.json");
         }
 
-        private string GetId(IWebElement feedRow) => feedRow.FindElement(By.XPath("./div")).GetAttribute("data-post-id");
-        
-        private IWebElement GetTextFieldElement(IWebElement feedRow) => feedRow.FindElement(By.ClassName("wall_text")).FindElement(By.XPath("./div/div"));
-        
-        private IWebElement GetImageFieldElement(IWebElement feedRow) => feedRow.FindElement(By.ClassName("wall_text")).FindElement(By.XPath("./div/div[2]"));
+        private string GetId(IWebElement feedRow) =>
+            feedRow.FindElement(By.XPath("./div")).GetAttribute("data-post-id");
+
+        private IWebElement GetTextFieldElement(IWebElement feedRow) =>
+            feedRow.FindElement(By.ClassName("wall_text")).FindElement(By.XPath("./div/div"));
+
+        [CanBeNull]
+        private IWebElement GetImageFieldElement(IWebElement feedRow) => feedRow.FindElement(By.ClassName("wall_text"))
+            .FindElements(By.XPath("./div/div[2]")).SingleOrDefault();
 
         private string GetImageUrl(IWebElement aElement)
         {
@@ -104,7 +125,7 @@ namespace selenium
             var url = styleSting.Substring(styleSting.IndexOf("url(\"") + 5);
             return url.Substring(0, url.IndexOf(".jpg") + 4);
         }
-        
+
         private static void WriteInFile<T>(List<T> collection, string filename) where T : Post
         {
             using (var file = new FileStream("../../" + filename, FileMode.Create))
@@ -117,7 +138,7 @@ namespace selenium
             }
         }
 
-        public void MakeWall()
+        private void MakeWall()
         {
             IList<IWebElement> wall = Driver.FindElements(By.ClassName("feed_row "));
             Wall = new List<IWebElement>();
