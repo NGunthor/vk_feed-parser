@@ -1,0 +1,15 @@
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\selenium.exe.config
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\selenium.exe
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\selenium.pdb
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\WebDriver.dll
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\WebDriver.Support.dll
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\WebDriver.xml
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\WebDriver.Support.xml
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug\selenium.exe
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug\selenium.pdb
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug\selenium.csprojAssemblyReference.cache
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug\selenium.csproj.CoreCompileInputs.cache
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\obj\Debug\selenium.csproj.CopyComplete
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.dll
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\clfdf\Documents\Visual Studio 2015\Projects\selenium\selenium\bin\Debug\Newtonsoft.Json.xml
