@@ -16,9 +16,9 @@ namespace selenium
 {
     class Manager
     {
-        List<Text> texts;
-        List<Link> links;
-        List<Link> images;
+        private List<Text> Texts { get; set; }
+        private List<Link> Links { get; set; }
+        private List<Link> Images { get; set; }
         private List<IWebElement> Wall { get; set; }
         private IWebDriver Driver { get; set; }
 
@@ -36,28 +36,33 @@ namespace selenium
 
         public void FindTexts()
         {
-            texts = new List<Text>();
+            Texts = new List<Text>();
             foreach (var feedRow in Wall)
             {
                 var id = GetId(feedRow);
                 var textField = GetTextFieldElement(feedRow);
                 if (textField.GetAttribute("class") != "wall_post_text")
-                    texts.Add(new Text(id, null));
+                    Texts.Add(new Text(id, null));
                 else if (textField.Text != string.Empty)
                 {
                     var fullText =
                         textField.FindElements(By.TagName("a")).Count(element => element.GetAttribute("class") == "wall_post_more") == 1 ? 
-                            textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).Text : 
+                            textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).GetProperty("innerText") : 
                             textField.Text;
-                    texts.Add(new Text(id, fullText));
+                    Texts.Add(new Text(id, fullText));
                 }
             }
-            WriteInFile(texts, "texts.json");
+            WriteInFile(Texts, "texts.json");
         }
+        
+//        var fullText =
+//            textField.FindElements(By.TagName("a")).Count(element => element.GetAttribute("class") == "wall_post_more") == 1 ? 
+//                /*textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).Text*/textField.GetProperty("innerText") : 
+//                textField.Text;
 
         public void FindLinks()
         {
-            links = new List<Link>();
+            Links = new List<Link>();
             foreach (var feedRow in Wall)
             {
                 var id = GetId(feedRow);
@@ -66,7 +71,7 @@ namespace selenium
                     .Where(element => element.GetAttribute("href") != null).ToList();
                 if (textField.GetAttribute("class") != "wall_post_text" || aElements.Count == 0)
                 {
-                    links.Add(new Link(id, null));
+                    Links.Add(new Link(id, null));
                     continue;
                 }
 
@@ -77,21 +82,21 @@ namespace selenium
                         contentLinks.Add(element.GetAttribute("href"));
                 }
 
-                links.Add(new Link(id, contentLinks));
+                Links.Add(new Link(id, contentLinks));
             }
 
-            WriteInFile(links, "links.json");
+            WriteInFile(Links, "links.json");
         }
         
         public void FindImages()
         {
-            images = new List<Link>();
+            Images = new List<Link>();
             foreach (var feedRow in Wall)
             {
                 var id = GetId(feedRow);
                 var imageField = GetImageFieldElement(feedRow);
                 if (imageField == null || imageField.GetAttribute("class") != "page_post_sized_thumbs  clear_fix")
-                    images.Add(new Link(id, null));
+                    Images.Add(new Link(id, null));
                 else
                 {
                     var imageLinks = new List<string>();
@@ -102,11 +107,11 @@ namespace selenium
                         imageLinks.Add(imageUrl);
                     }
 
-                    images.Add(new Link(id, imageLinks));
+                    Images.Add(new Link(id, imageLinks));
                 }
             }
 
-            WriteInFile(images, "images.json");
+            WriteInFile(Images, "images.json");
         }
 
         private string GetId(IWebElement feedRow) =>
