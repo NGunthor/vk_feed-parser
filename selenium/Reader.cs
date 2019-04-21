@@ -49,15 +49,15 @@ namespace selenium
 
         private static void ReadFile(string filename)
         {
-            using (StreamWriter sw = new StreamWriter("../../" + filename, true, System.Text.Encoding.UTF8))
-            {
-                sw.WriteLine();
-                sw.Write("nЗдесь был " + filename);
-            }
-//            using (StreamReader sr = new StreamReader("../../" + filename))
+//            using (StreamWriter sw = new StreamWriter("../../" + filename, true, System.Text.Encoding.UTF8))
 //            {
-//                Console.WriteLine(sr.ReadToEnd());
+//                sw.WriteLine();
+//                sw.Write("Здесь был " + filename);
 //            }
+            using (StreamReader sr = new StreamReader("../../" + filename))
+            {
+                Console.WriteLine(sr.ReadToEnd());
+            }
         }
     }
 }

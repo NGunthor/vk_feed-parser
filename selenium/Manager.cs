@@ -129,14 +129,9 @@ namespace selenium
 
         private static void WriteInFile<T>(List<T> collection, string filename) where T : Post
         {
+            var jsonFormatter = new DataContractJsonSerializer(collection.GetType());
             using (var file = new FileStream("../../" + filename, FileMode.Create))
-            {
-                foreach (var text in collection)
-                {
-                    var jsonFormatter = new DataContractJsonSerializer(text.GetType());
-                    jsonFormatter.WriteObject(file, text);
-                }
-            }
+                jsonFormatter.WriteObject(file, collection);
         }
 
         private void MakeWall()
