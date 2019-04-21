@@ -23,12 +23,10 @@ namespace selenium
             Thread.Sleep(5000);
             Console.WriteLine("Start");
 
+            var threads = new ThreadManager(manager);
             
-            //manager.tempFunc();
-            manager.FindTexts();
-            manager.FindLinks();
-            manager.FindImages();
-            
+            while (threads.Threads[3].IsAlive)
+                continue;
             Console.WriteLine("End");
             Console.ReadKey();
         }

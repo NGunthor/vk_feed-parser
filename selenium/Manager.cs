@@ -9,13 +9,17 @@ using OpenQA.Selenium.Support;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
+using System.Text.RegularExpressions;
 using System.Threading;
 using JetBrains.Annotations;
 
 namespace selenium
 {
-    class Manager
+    public class Manager
     {
+        public static readonly object TextsLocker = new object();
+        public static readonly object LinksLocker = new object();
+        public static readonly object ImagesLocker = new object();
         private List<Text> Texts { get; set; }
         private List<Link> Links { get; set; }
         private List<Link> Images { get; set; }
@@ -36,6 +40,8 @@ namespace selenium
 
         public void FindTexts()
         {
+            Monitor.Enter(TextsLocker);
+            Console.WriteLine("inFindTexts");
             Texts = new List<Text>();
             foreach (var feedRow in Wall)
             {
@@ -44,24 +50,16 @@ namespace selenium
                 if (textField.GetAttribute("class") != "wall_post_text")
                     Texts.Add(new Text(id, null));
                 else if (textField.Text != string.Empty)
-                {
-                    var fullText =
-                        textField.FindElements(By.TagName("a")).Count(element => element.GetAttribute("class") == "wall_post_more") == 1 ? 
-                            textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).GetProperty("innerText") : 
-                            textField.Text;
-                    Texts.Add(new Text(id, fullText));
-                }
+                    Texts.Add(new Text(id, textField.GetAttribute("textContent")));
             }
             WriteInFile(Texts, "texts.json");
+            Console.WriteLine("outFindTexts");
+            Monitor.Exit(TextsLocker);
         }
-        
-//        var fullText =
-//            textField.FindElements(By.TagName("a")).Count(element => element.GetAttribute("class") == "wall_post_more") == 1 ? 
-//                /*textField.Text.Replace("Expand text…", "") + textField.FindElement(By.TagName("span")).Text*/textField.GetProperty("innerText") : 
-//                textField.Text;
-
         public void FindLinks()
         {
+            Monitor.Enter(LinksLocker);
+            Console.WriteLine("inFindLinks");
             Links = new List<Link>();
             foreach (var feedRow in Wall)
             {
@@ -86,10 +84,14 @@ namespace selenium
             }
 
             WriteInFile(Links, "links.json");
+            Console.WriteLine("outFindLinks");
+            Monitor.Exit(LinksLocker);
         }
         
         public void FindImages()
         {
+            Monitor.Enter(ImagesLocker);
+            Console.WriteLine("inFindImages");
             Images = new List<Link>();
             foreach (var feedRow in Wall)
             {
@@ -99,19 +101,15 @@ namespace selenium
                     Images.Add(new Link(id, null));
                 else
                 {
-                    var imageLinks = new List<string>();
                     var aElements = imageField.FindElements(By.TagName("a"));
-                    foreach (var element in aElements)
-                    {
-                        var imageUrl = GetImageUrl(element);
-                        imageLinks.Add(imageUrl);
-                    }
-
+                    var imageLinks = aElements.Select(GetImageUrl).ToList();
                     Images.Add(new Link(id, imageLinks));
                 }
             }
 
             WriteInFile(Images, "images.json");
+            Console.WriteLine("outFindImages");
+            Monitor.Exit(ImagesLocker);
         }
 
         private string GetId(IWebElement feedRow) =>
@@ -126,9 +124,7 @@ namespace selenium
 
         private string GetImageUrl(IWebElement aElement)
         {
-            var styleSting = aElement.GetAttribute("style");
-            var url = styleSting.Substring(styleSting.IndexOf("url(\"") + 5);
-            return url.Substring(0, url.IndexOf(".jpg") + 4);
+            return Regex.Match(aElement.GetAttribute("style"), @"https(.*?)jpg").ToString();
         }
 
         private static void WriteInFile<T>(List<T> collection, string filename) where T : Post
